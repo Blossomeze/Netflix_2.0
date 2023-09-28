@@ -36,7 +36,7 @@ function SignUp() {
         <input ref={emailRef} placeholder='Email' type="email" />
         <input ref={passwordRef} placeholder='Password' type="password" />
         <button type='submit' onClick={register}>Sign Up</button>
-        <span><h4>Already have an account?</h4><p onClick={signIn}>Sign in now.</p></span>
+        <span><h4>Already have an account?</h4><p className='signinbtn' onClick={signIn}>Sign in now.</p></span>
       </form>
     </div>
   );

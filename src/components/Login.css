@@ -11,6 +11,27 @@
     justify-content: space-between;
     padding: 0 10vw;
 }
+@media screen and (max-width: 700px) {
+    .nav{
+        padding: 0 2vw;
+    }
+    .login_button{
+        padding: 5px 13px;
+    }
+    .login_content{
+        top: 10%;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .login_content h1{
+        font-size: 20px !important;
+        width: 100%;
+        line-height: 25px;
+    }
+    .login_input{
+        width: 800px !important;
+    }
+}
 .background{
     background: rgb(0 0 0 / 40%);
     position: absolute;

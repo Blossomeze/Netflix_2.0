@@ -5,6 +5,22 @@
     object-fit: contain;
     margin-bottom: 50px;
 }
+@media screen and (max-width: 700px) {
+    .contents{
+        margin-left: 20px !important;
+        padding-top: 150px !important;
+    }
+    .title{
+        font-size: 24px !important;
+        width: 50%;
+    }
+    .description{
+        width: 80% !important;
+    }
+    .button{
+        padding: 0.3rem 1.5rem;
+    }
+}
 .contents{
     margin-left: 50px;
     padding-top: 180px;

@@ -20,7 +20,6 @@ function Login() {
                     <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
                     <div className='input'>
                         <form>
-                            <input className='login_input' type="email" placeholder='Email address' />
                             <buttton onClick={() => setSignIn(true)}className="login_startButton">Get Started</buttton>
                         </form>
                     </div>

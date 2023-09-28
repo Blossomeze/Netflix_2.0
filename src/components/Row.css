@@ -1,3 +1,8 @@
+@media screen and (max-width: 700px) {
+    .row{
+        margin-left: 0 !important;
+    }
+}
 .row{
     color: #fff;
     margin-left: 20px;
@@ -32,4 +37,7 @@
 .large_poster:hover{
     opacity: 1;
     transform: scale(1.08);
+}
+p{
+    color: #fff;
 }

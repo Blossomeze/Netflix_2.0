@@ -1,3 +1,25 @@
+@media screen and (max-width: 700px) {
+    .profile_contents > h1{
+        font-size: 24px !important;
+    }
+    .profile{
+        padding-top: 50px;
+        max-width: 100%;
+    }
+    .profile_contents{
+        max-width: 400px !important;
+        width: 70vw;
+    }
+    .info > img{
+        height: 60px !important;
+    }
+    .details > h2, button{
+        font-size: 14px !important;
+    }
+    .details{
+        margin-left: 10px !important;
+    }
+}
 .profile_button{
     cursor: pointer;
     padding: 10px 20px;
