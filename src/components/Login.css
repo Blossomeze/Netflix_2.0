@@ -28,6 +28,9 @@
         width: 100%;
         line-height: 25px;
     }
+    .login_content h2{
+        font-size: 18px !important;
+    }
     .login_input{
         width: 800px !important;
     }
